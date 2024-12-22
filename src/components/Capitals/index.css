@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+  background-color: #93c5fd;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 2%;
+  width: 80%;
+}
+.question-container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 1.8em;
+}
+.answer {
+  font-size: 1.3em;
+  color: #1e293b;
+}
+option {
+  font-size: 0.8em;
+}
+.question {
+  font-size: 1em;
+  flex-grow: 1;
+  padding: 2%;
+  margin: auto;
+}
+select {
+  font-size: 1em;
+  outline: none;
+}
